@@ -1,1 +1,2 @@
 # PotentialField_PathPlanning
+I implemented the potential field method for the path planning of a point moving on a plane. I assumed that all obstacles are presented by line segments.I wrote a MATLAB function to generate the via points of the path. The function receives the coordinates of the starting and final point, scaling factor (ETA) for the attractive field, and a matrix B that stores the information of the obstacles.For instance, each obstacle is a line with the coordinates of the starting and final point. It has a distance of influence and a scaling factor (ETA).
